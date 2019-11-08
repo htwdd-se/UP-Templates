@@ -1,6 +1,6 @@
 = Architecture Notebook <Projektthema>
 Vorname Nachname <email@domain.org> 
-0.1, 01.09.2019 
+0.1, 01.11.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :sectnums:
@@ -24,7 +24,8 @@ Dieses Dokument beschreibt die Philosophie, Entscheidungen, Nebenbedingungen, Be
 //[List the assumptions and dependencies that drive architectural decisions. This could include sensitive or critical areas, dependencies on legacy interfaces, the skill and experience of the team, the availability of important resources, and so forth]
 
 == Architektur-relevante Anforderungen
-//[Insert a reference or link to the requirements that must be implemented to realize the architecture.]
+//Fügen Sie eine Referenz / Link zu den Anforderungen ein, die implementiert werden müssen, um die Architektur zu erzeugen.
+
 
 == Entscheidungen, Nebenbedingungen und Begründungen 
 //[List the decisions that have been made regarding architectural approaches and the constraints being placed on the way that the developers build the system. These will serve as guidelines for defining architecturally significant parts of the system. Justify each decision or constraint so that developers understand the importance of building the system according to the context created by those decisions and constraints. This may include a list of DOs and DON’Ts to guide the developers in building the system.] 
