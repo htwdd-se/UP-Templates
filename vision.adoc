@@ -1,10 +1,81 @@
-= Vision <Projektthema>
+= Vision -Projektthema-
 Vorname Nachname <email@domain.org> 
-0.1, 01.09.2019 
+0.1, 01.11.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :sectnums:
 // Platzhalter für weitere Dokumenten-Attribute 
 
-== Einführung
-Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+
+
+== Introduction
+== Positioning
+
+===	Problem Statement
+//Provide a statement summarizing the problem being solved by this project. The following format may be used:
+
+|===
+|The problem of |	[describe the problem]
+|affects |	[the stakeholders affected by the problem]
+|the impact of which is |	[what is the impact of the problem?]
+|a successful solution would be |	[list some key benefits of a successful solution]
+|===
+
+=== Product Position Statement
+//Provide an overall statement summarizing, at the highest level, the unique position the product intends to fill in the marketplace. The following format may be used:
+
+|===
+|For|	[target customer]
+|Who|	[statement of the need or opportunity]
+|The (product name)	 is a | [product category]
+|That	|[statement of key benefit; that is, the compelling reason to buy]
+|Unlike	|[primary competitive alternative]
+|Our product|	[statement of primary differentiation]
+|===
+//A product position statement communicates the intent of the application and the importance of the project to all concerned personnel.
+
+==	Stakeholder Descriptions
+===	Stakeholder Summary
+
+|===
+|Name|	Description	|Responsibilities
+|[Name the stakeholder type.]	|[Briefly describe the stakeholder.]	|[Summarize the stakeholder’s key responsibilities with regard to the system being developed; that is, their interest as a stakeholder. For example, this stakeholder:
+ensures that the system will be maintainable
+ensures that there will be a market demand for the product’s features
+monitors the project’s progress
+approves funding
+and so forth]
+|===
+
+===	User Environment
+Detail the working environment of the target user. Here are some suggestions:
+
+. Number of people involved in completing the task? Is this changing?
+. How long is a task cycle? Amount of time spent in each activity? Is this changing?
+. Any unique environmental constraints: mobile, outdoors, in-flight, and so on?
+. Which system platforms are in use today? Future platforms?
+. What other applications are in use? Does your application need to integrate with them?
+
+This is where extracts from the Business Model could be included to outline the task and roles involved, and so on.
+
+==	Product Overview
+===	Needs and Features
+//Avoid design. Keep feature descriptions at a general level. Focus on capabilities needed and why (not how) they should be implemented. Capture the stakeholder priority and planned release for each feature.
+|===
+|Need|	Priority|	Features|	Planned Release
+||||
+|===
+			
+
+== Other Product Requirements
+. At a high level, list applicable standards, hardware, or platform requirements; performance requirements; and environmental requirements.
+. Define the quality ranges for performance, robustness, fault tolerance, usability, and similar characteristics that are not captured in the Feature Set.
+. Note any design constraints, external constraints, assumptions or other dependencies that, if changed, will alter the Vision document. For example, an assumption may state that a specific operating system will be available for the hardware designated for the software product. If the operating system is not available, the Vision document will need to change.
+. Define any specific documentation requirements, including user manuals, online help, installation, labeling, and packaging requirements.
+. Define the priority of these other product requirements. Include, if useful, attributes such as stability, benefit, effort, and risk.
+|===
+|Requirement|	Priority|	Planned Release
+||||
+|===
+		
+
