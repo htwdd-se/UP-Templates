@@ -1,0 +1,40 @@
+//Nutzen Sie dieses Template als Grundlage für die Spezifikation einzelner Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden.
+== Use-Case: <use-case name>
+
+===	Brief Description
+//<brief description of use-case>
+===	Actor Brief Descriptions
+==== <Actor 1 Name>
+
+=== Preconditions
+<pre-condition 1>
+
+=== Basic Flow of Events
+
+. The use case begins when <actor>, <does something>…
+. <basic flow step 1>
+. 	… 
+. <basic flow step n>
+. The use case ends.
+=== Alternative Flows
+==== <alternate flow 1>
+If in step <x> of the basic flow the <actor or system does something>, then 
+. <describe flow>  
+. The use case resumes at step <y>
+=== Subflows 
+
+====	<subflow 1>
+. <subflow 1, step 1>
+. …
+. <subflow 1, step n>
+
+=== Key Scenarios
+====	<scenario 1>
+. <scenario 1, step 1>
+. 	…
+. 	<scenario 1, step n>
+
+===	Post-conditions
+====	<post-condition 1>
+=== Special Requirements
+. <special requirement 1>

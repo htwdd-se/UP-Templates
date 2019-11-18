@@ -1,0 +1,11 @@
+= Use-Case Model <Projektthema>
+Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vorname3 Nachname3 <email3@domain.org>
+0.1, 01.11.2019 
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+// Platzhalter für weitere Dokumenten-Attribute 
+
+//Fügen Sie nachfolgend eine Liste aller Use-Cases per Include ein.
+//Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem usecase_spec.adoc Template basiert.
+include::usecase_spec.adoc[]
