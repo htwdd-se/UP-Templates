@@ -1,40 +1,48 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation einzelner Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden.
 == Use-Case: <use-case name>
 
-===	Brief Description
-//<brief description of use-case>
-===	Actor Brief Descriptions
-==== <Actor 1 Name>
+===	Kurzbeschreibung
+//<Kurze Beschreibung des Use Case>
+===	Kurzbeschreibung der Akteure
+==== <Akteur 1 Name>
 
-=== Preconditions
-<pre-condition 1>
+=== Vorbedingungen
+//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
+<Vorbedingung 1>
 
-=== Basic Flow of Events
+=== Standardablauf (Basic Flow)
+//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. The use case begins when <actor>, <does something>…
-. <basic flow step 1>
+. Der Use Case beginnt, wenn <akteur> <macht>…
+. <Standardablauf Schritt 1>
 . 	… 
-. <basic flow step n>
-. The use case ends.
-=== Alternative Flows
+. <Standardablauf Schritt n>
+. Der Use Case ist abgeschlossen.
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 ==== <alternate flow 1>
-If in step <x> of the basic flow the <actor or system does something>, then 
-. <describe flow>  
-. The use case resumes at step <y>
-=== Subflows 
+Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann 
+. <Ablauf beschreiben>  
+. Der Use Case wird im Schritt <y> fortgesetzt.
+=== Unterabläufe (subflows)
+//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-====	<subflow 1>
-. <subflow 1, step 1>
+====	<Unterablauf 1>
+. <Unterablauf 1, Schritt 1>
 . …
-. <subflow 1, step n>
+. <Unterablauf 1, Schritt n>
 
-=== Key Scenarios
+=== Wesentliche Szenarios
+//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
 ====	<scenario 1>
-. <scenario 1, step 1>
+. <Szenario 1, Schritt 1>
 . 	…
-. 	<scenario 1, step n>
+. 	<Szenario 1, Schritt n>
 
-===	Post-conditions
-====	<post-condition 1>
-=== Special Requirements
-. <special requirement 1>
+===	Nachbedingungen
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+====	<Nachbedingung 1>
+
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+==== <Besondere Anforderung 1>
