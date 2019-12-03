@@ -17,9 +17,7 @@ Die Risiken sind in folgender Tabelle dargestellt. Das Datum des Dokuments oben 
 
 [%header, format="csv", separator=";"]
 |===
-ID,Datum,Name,Beschreibung,Typ, IMP, PRB,MAG,Owner,Gegenmaßnahme
 include::risks.csv[]
-1,01.12.19,Teammitglied fällt aus,Mitglied des Teams kann (dauerhaft oder zeitweise) nicht mehr am Projekt teilnehmen, z.B. wegen Krankheit oder Studiengangswechsel,4,20%,0.8,Max Müller,Backup-Rollen nutzen und Know-How zwischen diesen Personen kontinuierlich teilen
 |===
 
 
