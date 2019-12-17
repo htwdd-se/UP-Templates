@@ -120,7 +120,7 @@ Hinweise:
 [%header, cols="4,1,1"]
 |===
 |Anforderung|	Priorität|	Geplantes Release
-| zz |xx|xx|
+|xx|xx|xx|
 |===
 		
 
