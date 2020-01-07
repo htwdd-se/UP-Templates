@@ -52,4 +52,3 @@ NOTE: Die funktionalen Anforderungen, die sich aus der Interaktion von Nutzern m
 //Angaben ergänzen, nicht relevante Unterpunkte streichen oder auskommentieren
 * Lizensierung der Anwendung
 * Datenschutz
-¥
