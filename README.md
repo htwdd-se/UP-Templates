@@ -1,3 +1,5 @@
+> Bitte aufpassen, die Vorlagen aus diesem Repository sind in das Repository [Projektstruktur_OpenUP-Templates](https://github.com/htwdd-se/Projektstruktur_OpenUP-Templates) inkl. einer beispielhaften Projektstrukur übernommen und inhaltlich etwas angepasst worden. Studenten aus dem Fach Software Engineering I nehmen bitte die Vorlagen und die Struktur aus dem Repository [Projektstruktur_OpenUP-Templates](https://github.com/htwdd-se/Projektstruktur_OpenUP-Templates).
+
 # Unified Process - Templates
 Dieses Repositority enthält Vorlagen im AsciiDoc-Format für die Arbeit mit dem Open Unified Process. Die Vorlagen basieren auf den Templates der offiziellen OpenUP Dokumentation in der Version 1.5x aus dem Eclipse Process Framework (EPF) und wurden bis auf geringe inhaltliche / strukturelle Anpassungen lediglich auf deutsch übersetzt.
 
